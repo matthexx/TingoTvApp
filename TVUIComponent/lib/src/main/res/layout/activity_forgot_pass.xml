@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/account_fastlane_background"
+    tools:context=".ui.accounts.ForgotPassActivity">
+
+
+
+        <ImageView
+            android:id="@+id/headerIcon"
+            android:layout_width="240dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="53dp"
+            android:background="@drawable/icon"
+            android:scaleType="centerCrop" />
+
+
+
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="596dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:background="@color/account_primary"
+            android:layout_marginTop="250dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+            android:textSize="24dp"
+            android:paddingLeft="5dp"
+            android:textColor="@color/account_fastlane_background"
+            android:textColorHint="@color/account_fastlane_background"
+            tools:text="Email" />
+
+
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="301dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="136dp"
+            android:background="@color/account_primary"
+            android:fontFamily="sans-serif"
+            android:text="Send"
+            android:textColor="@color/account_fastlane_background"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/forgotPass"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:textSize="24sp"-->
+            <!--android:textColor="@color/account_selected_background"-->
+            <!--android:layout_marginBottom="72dp"-->
+            <!--android:text="#emai#"/>-->
+
+    </RelativeLayout>
+
+
